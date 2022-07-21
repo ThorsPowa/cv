@@ -1,0 +1,141 @@
+body{
+  background-color: #ACB992;
+  color: #0F0E0E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  color: #6D8B74;
+}
+
+h2{
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #6D8B74;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Cinzel', serif;
+  color: #EFEAD8;
+
+}
+
+hr{
+  border: dotted #D0C9C0 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+  color: #6D8B74;
+  font-family: 'Oswald', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EFEAD8;
+}
+
+.top-container{
+  background-color:  #464E2E;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #464E2E;
+  padding: 50px 0 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.webDev-img{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.gameDev-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px
+}
+
+.project-screenshot-img{
+  width: 50%;
+  margin-right: 30px;
+}
+
+.bio{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EFEAD8;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #573221;
+  background-image: -webkit-linear-gradient(top, #573221, #855740);
+  background-image: -moz-linear-gradient(top, #573221, #855740);
+  background-image: -ms-linear-gradient(top, #573221, #855740);
+  background-image: -o-linear-gradient(top, #573221, #855740);
+  background-image: linear-gradient(to bottom, #573221, #855740);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Cinzel', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1e380f;
+  background-image: -webkit-linear-gradient(top, #1e380f, #658541);
+  background-image: -moz-linear-gradient(top, #1e380f, #658541);
+  background-image: -ms-linear-gradient(top, #1e380f, #658541);
+  background-image: -o-linear-gradient(top, #1e380f, #658541);
+  background-image: linear-gradient(to bottom, #1e380f, #658541);
+  text-decoration: none;
+}
